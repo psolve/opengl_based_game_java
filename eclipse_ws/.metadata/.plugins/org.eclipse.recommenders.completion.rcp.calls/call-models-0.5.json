@@ -1,0 +1,17 @@
+{
+  "C:\\Users\\aarehman\\Desktop\\repos_fetch\\opengl_based_game\\eclipse_ws\\Game\\lib\\jars\\lwjgl.jar": {
+    "location": "C:\\Users\\aarehman\\Desktop\\repos_fetch\\opengl_based_game\\eclipse_ws\\Game\\lib\\jars\\lwjgl.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\aarehman\\Desktop\\repos_fetch\\opengl_based_game\\eclipse_ws\\Game\\lib\\jars\\lwjgl.jar\u0027. Neither fingerprint \u00273df168ac74e4a8c96562cdff24ad352e255bf89c\u0027 nor symbolic name \u0027lwjgl\u0027 are known."
+  },
+  "C:\\Program Files\\Java\\jdk1.8.0_45\\jre\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_45\\jre\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "C:\\Users\\aarehman\\Desktop\\repos_fetch\\opengl_based_game\\eclipse_ws\\Game\\src": {
+    "location": "C:\\Users\\aarehman\\Desktop\\repos_fetch\\opengl_based_game\\eclipse_ws\\Game\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\aarehman\\Desktop\\repos_fetch\\opengl_based_game\\eclipse_ws\\Game\\src\u0027. Skipped."
+  }
+}

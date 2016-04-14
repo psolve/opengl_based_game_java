@@ -1,0 +1,32 @@
+package renderEngine;
+
+import org.lwjgl.opengl.GL30;
+
+public class Loader {
+	
+	//Position is in 3d space ;-)
+	public RawModel loadToVAO(float []positions){
+		int vaoID=createVAO();
+		
+		storeDataInAttributeList(vaoID, positions);
+		unbindVAO();
+		
+		return new RawModel(vaoID, positions.length/3);
+		
+	}
+	
+	private int createVAO(){
+		 int vaoID = GL30.glGenVertexArrays();
+		 GL30.glBindVertexArray(vaoID);
+		 return vaoID;
+	}
+	
+	private void storeDataInAttributeList(int attributeNumber,float[] data){
+		GL30.glver
+	}
+	
+	private void unbindVAO(){
+		GL30.glBindVertexArray(0);
+	}
+	
+}

@@ -1,0 +1,21 @@
+package engineTester;
+
+import org.lwjgl.opengl.Display;
+
+import renderEngine.DisplayManager;
+
+public class MainGameLoop {
+
+	public static void main(String[] args) {
+		
+		DisplayManager.createdisplay();
+		
+		while(!Display.isCloseRequested()){
+			DisplayManager.updateDisplay();
+		}
+		
+		DisplayManager.closeDisplay();
+		
+	}
+
+}
